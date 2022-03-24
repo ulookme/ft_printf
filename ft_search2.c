@@ -6,7 +6,7 @@
 /*   By: chajjar <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 21:35:41 by chajjar           #+#    #+#             */
-/*   Updated: 2022/03/23 22:32:43 by chajjar          ###   ########.fr       */
+/*   Updated: 2022/03/24 10:49:28 by chajjar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,13 +64,13 @@ const char	*ft_search_u(va_list arg, const char *format, t_list *list)
 
 const char	*ft_search_p(va_list arg, const char *format, t_list *list)
 {
-	unsigned long int	d;
+	unsigned long long	d;
 
 	d = 0;
 	if (*format == 'p')
 	{
 		write(1, "0x", 2);
-		d = va_arg(arg, unsigned long int);
+		d = va_arg(arg, unsigned long long);
 		ft_printhexa(d, "0123456789abcdef");
 		list->len += ft_intlen_base16(d) + 2;
 	}

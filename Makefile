@@ -6,7 +6,7 @@
 #    By: chajjar <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/23 21:57:38 by chajjar           #+#    #+#              #
-#    Updated: 2022/03/23 22:03:51 by chajjar          ###   ########.fr        #
+#    Updated: 2022/03/24 10:37:28 by chajjar          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ CC = gcc
 
 FLAGS = -Wall -Wextra -Werror
 
-NAME = ft_printf.a
+NAME = libftprintf.a
 
 SRCS = ft_format.c\
    	   ft_printhexa.c\

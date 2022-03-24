@@ -6,7 +6,7 @@
 /*   By: chajjar <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 14:45:21 by chajjar           #+#    #+#             */
-/*   Updated: 2022/03/23 22:30:45 by chajjar          ###   ########.fr       */
+/*   Updated: 2022/03/24 10:51:22 by chajjar          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ int			ft_strlen(const char *c);
 void		ft_putnbr_u(unsigned int n);
 char		*ft_strchr(const char *c);
 int			ft_intlen_base10(long long nb);
-int			ft_intlen_base16(long long nb);
+int			ft_intlen_base16(unsigned long long nb);
 const char	*ft_search_d(va_list arg, const char *format, t_list *list);
 const char	*ft_search_s(va_list arg, const char *format, t_list *list);
 const char	*ft_search_x(va_list arg, const char *format, t_list *list);
